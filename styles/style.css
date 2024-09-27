@@ -99,9 +99,6 @@ cursor: pointer;
     align-items: center;
     margin-top: 120px;
 }
-.bottom-left{
-
-}
 .bottom-left h1{
 font-size: 45px;
 color: var(--color1);
@@ -220,4 +217,31 @@ flex-basis: 30%;
 .agency-box-icon i{
     font-size: 40px;
     color: var(--color2);
+}
+/* <!-- my services rating happy clind --> */
+.our-clients{
+    background:linear-gradient(#000000c4, #000000c4), url(/img/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.our-clients-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.our-clients-feedback{
+    flex-basis: 22%;
+    background-color: #24a92491;
+    padding: 40px 0;
+    text-align: center;
+}
+.our-clients-feedback h2{
+    font-size: 50px;
+    color: var(--color1);
+}
+.our-clients-feedback span{
+    color: var(--color1);
 }
