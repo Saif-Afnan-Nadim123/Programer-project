@@ -245,3 +245,53 @@ flex-basis: 30%;
 .our-clients-feedback span{
     color: var(--color1);
 }
+
+/* <!-- Our team section desing --> */
+.our-team-members{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.team-member{
+    flex-basis: 31%;
+}
+.member-img{
+height: 400px;
+overflow: hidden;
+position: relative;
+}
+.member-img img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.member-social{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.member-social i{
+    color: var(--color1);
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #06A506;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.member-social i:hover{
+    transform: translateY(-10px);
+}
+.member-info{
+    padding: 20px;
+    background-color: #06A506;
+    text-align: center;
+    columns: var(--color1);
+}
